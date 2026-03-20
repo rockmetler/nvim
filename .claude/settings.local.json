@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(where claude:*)",
+      "Read(//c/Users/ashley.allen/AppData/Local/nvim/Local/**)",
+      "Read(//c/Users/ashley.allen/AppData/Local/nvim/Roaming/npm/**)",
+      "Read(//c/Users/ashley.allen/AppData/Local/nvim/**)"
+    ]
+  }
+}

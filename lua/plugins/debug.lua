@@ -5,7 +5,8 @@ return {
     dependencies = { "mfussenegger/nvim-dap" },
     config = function()
       require("dap-vscode-js").setup({
-        debugger_path = vim.fn.stdpath("data") .. "/lazy/vscode-js-debug",
+        debugger_path = vim.fn.stdpath("data") .. "/mason/packages/js-debug-adapter/js-debug",
+        debugger_cmd = { "js-debug-adapter" },
         adapters = { "pwa-node", "pwa-chrome", "node-terminal" },
       })
 
@@ -40,12 +41,6 @@ return {
         }
       end
     end,
-  },
-
-  -- vscode-js-debug installer
-  {
-    "microsoft/vscode-js-debug",
-    build = "npm install --legacy-peer-deps && npx gulp vsDebugServerBundle && mv dist out",
   },
 
   -- C#: netcoredbg via nvim-dap

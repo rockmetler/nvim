@@ -16,9 +16,27 @@ return {
     end,
   },
 
+  -- Ensure prettier is installed for TS/JS formatting
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = { "prettier" },
+    },
+  },
+
   -- Auto-close/rename JSX & HTML tags (already installed, make sure it's enabled)
   {
     "windwp/nvim-ts-autotag",
     opts = {},
+  },
+
+  -- Formatter: use csharpier for C#
+  {
+    "stevearc/conform.nvim",
+    opts = {
+      formatters_by_ft = {
+        cs = { "csharpier" },
+      },
+    },
   },
 }

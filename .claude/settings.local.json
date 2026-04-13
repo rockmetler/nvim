@@ -5,7 +5,17 @@
       "Bash(where claude:*)",
       "Read(//c/Users/ashley.allen/AppData/Local/nvim/Local/**)",
       "Read(//c/Users/ashley.allen/AppData/Local/nvim/Roaming/npm/**)",
-      "Read(//c/Users/ashley.allen/AppData/Local/nvim/**)"
+      "Read(//c/Users/ashley.allen/AppData/Local/nvim/**)",
+      "Bash(bat --version)",
+      "Bash(lazygit --version)",
+      "Bash(choco --version)",
+      "Bash(npm --version)",
+      "Bash(dotnet --version)",
+      "Bash(stylua --version)",
+      "Bash(prettier --version)",
+      "Bash(csharpier --version)",
+      "Read(//c/Users/ashley.allen/AppData/Local/nvim-data/mason/bin//**)",
+      "Read(//c/Users/ashley.allen/AppData/Local/nvim-data/mason/packages//**)"
     ]
   }
 }
